@@ -157,6 +157,48 @@ header nav a {
     color: black;
     text-decoration: none;
 }
+.top-content-about {
+    padding: 0px 0px 20px 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    
+}
+.bottom-content-about{
+    padding: 20px 0px 40px 20px;
+}
+.about-tiles{
+    display:flex;
+    flex-flow: row wrap;
+    
+    /*padding: 0px 30px;*/
+}
+
+.tile {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    width: 46%;
+    border-bottom: 1px dashed black;
+    margin: 15px 15px;
+    
+   
+}
+.tile h2{
+    padding-top: 10px;
+}
+.tile p{
+    padding-bottom: 15px;
+}
+.tile a{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:black;
+    margin-bottom: 20px;
+    
+    
+}
 header .mainimg{
     margin: 20px 0px;
 }
