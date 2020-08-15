@@ -100,11 +100,10 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.middle-content .boxes .box {
+/* Small change made here, so that all of the box children are selected (now that they are renamed) */
+.middle-content .boxes >* {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,91 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* My additions */
+
+/* header content */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 0;
+    font-size: 14px;
+    width: 95%;
+}
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+header .mainimg{
+    margin: 20px 0px;
+}
+
+/* about.html content */
+.top-content-about {
+    padding: 0px 0px 20px 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.bottom-content-about{
+    padding: 20px 0px 40px 20px;
+}
+.about-tiles{
+    display:flex;
+    flex-flow: row wrap;
+}
+.tile {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    width: 46%;
+    border-bottom: 1px dashed black;
+    margin: 15px 15px;
+}
+.tile h2{
+    padding-top: 10px;
+}
+.tile p{
+    padding-bottom: 15px;
+}
+.tile a{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:black;
+    margin-bottom: 20px;
+}
+
+/* index.html content */
+.box1{
+    background: teal;
+}
+.box2{
+    background: gold;
+}
+.box3{
+    background: cadetblue;
+}
+.box4{
+    background: coral;
+}
+.box5{
+    background: crimson;
+}
+.box6{
+    background: forestgreen;
+}
+.box7{
+    background: darkorchid;
+}
+.box8{
+    background: hotpink;
+}
+.box9{
+    background: indigo;
+}
+.box10{
+    background: dodgerblue;
 }
